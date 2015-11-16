@@ -15,6 +15,14 @@ google-tracking-id: "UA-69345024-1"
 
 force-https: True
 
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Blog: 'latest-post'
+  Timeline: 'timeline'
+  Contact: 'contact'
+
 #############
 # HTML Head #
 #############
@@ -67,6 +75,10 @@ paginate: 5
 fb-share: True
 twitter-share: True
 reddit-share: True
+google-plus-share: False
+linkedin-share: True
+pinterest-share: True
+vkontakte-share: False
 disqus-shortname: "njaremko"
 
 ###############
@@ -116,24 +128,14 @@ social:
 
 # Tread carefully if you want to change the variables below this point!
 
-# Navigation bar links
-# Blog link in the blog and post pages will point to the blog.html#blog
-# In the default page it will point to the preview of the last post
-
-pages_list:
-  About: 'about'
-  Blog: 'blog'
-  Career: 'career'
-  Contact: 'contact'
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.md", "vendor"]
 
 # Pagination path
-paginate_path: "blog/page:num"
+paginate_path: "blog/page:num/"
 
 # Enable minification SASS
 sass:
   style: compressed
-
-# Exclusion list from the generated _site
-exclude: ["Rakefile", "LICENSE", "readme.md", "vendor"]
 
 gems: [jekyll-paginate]
