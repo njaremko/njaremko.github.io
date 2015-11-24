@@ -109,15 +109,15 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/career/pcc.png"
+  - image: "/img/timeline/pcc.png"
     date: "September 2015 - Today"
     description: "Quality Analyst @ PointClickCare"
-  - image: "/img/career/baracktocat.jpg"
+  - image: "/img/timeline/baracktocat.jpg"
     date: "June 2013 - August 2013"
     description: "Game Development Intern @ Sault Ste. Marie Innovation Centre"
 
 # First image of the Timeline
-timeline-img: "/img/career/default.png"
+timeline-img: "/img/timeline/default.png"
 
 ###########
 # Contact #
