@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://nathanjaremko.com"
+url: "https://njaremko.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -27,6 +27,7 @@ force-https: True
 #############
 # HTML Head #
 #############
+
 lang: "en"
 author: "Nathan Jaremko"
 title: "{ Nathan Jaremko }"
@@ -65,6 +66,12 @@ lines: # You can add HTML Tags in the Text
   - text: "Beware of bugs in the above code; I have only proved it correct, not tried it. - Donald E. Knuth."
 
 me-img: "/img/me.png"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
 
 ################
 # Web app mode #
@@ -117,6 +124,7 @@ events:
     description: "Game Development Intern @ Sault Ste. Marie Innovation Centre"
 
 # First image of the Timeline
+
 timeline-img: "/img/timeline/default.png"
 
 ###########
@@ -124,6 +132,17 @@ timeline-img: "/img/timeline/default.png"
 ###########
 
 email: "njaremko@gmail.com"
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
@@ -174,3 +193,4 @@ sass:
 
 gems:
   - jekyll-paginate
+  - jemoji
