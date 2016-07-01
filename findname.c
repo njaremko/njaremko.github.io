@@ -9,8 +9,14 @@ int rsearch(char *path, char *target) {
     if ((dir = opendir(path)) != NULL) {
         while ((dstruct = readdir (dir)) != NULL) {
             if (dstruct->d_type == DT_DIR) {
+                // these two if statements have to be separate, or it breaks...
                 if (strcmp(dstruct->d_name, ".")) {
                     if (strcmp(dstruct->d_name, "..")) {
+                        // if path ends with a slash, remove it
+                        if (path[strlen(path)-1] == '/') {
+                            path[strlen(path)-1] = '\0';
+                        }
+                        // do this search in every dir in the path directory
                         char *new_path;
                         if ((new_path = malloc(strlen(path)+strlen(dstruct->d_name)+2)) != NULL) {
                             strcpy(new_path, path);
@@ -24,12 +30,9 @@ int rsearch(char *path, char *target) {
                     }
                 }
             }
+            // print matches that we find...
             if(!strcmp(dstruct->d_name, target)) {
-                if (!strcmp(path, "./")) {
-                    printf("%s/%s\n", path, target);
-                } else {
                     printf("%s//%s\n", path, target);
-                }
             }
         }
     } else {
