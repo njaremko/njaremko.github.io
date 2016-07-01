@@ -25,7 +25,11 @@ int rsearch(char *path, char *target) {
                 }
             }
             if(!strcmp(dstruct->d_name, target)) {
-                printf("%s//%s\n", path, target);
+                if (!strcmp(path, "./")) {
+                    printf("%s/%s\n", path, target);
+                } else {
+                    printf("%s//%s\n", path, target);
+                }
             }
         }
     } else {
