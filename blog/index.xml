@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog-rsses on Nathan Jaremko</title>
-    <link>https://njaremko.github.io/blog/index.xml</link>
+    <link>https://nathanjaremko.com/blog/index.xml</link>
     <description>Recent content in Blog-rsses on Nathan Jaremko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 10 Oct 2016 18:58:18 -0400</lastBuildDate>
-    <atom:link href="https://njaremko.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nathanjaremko.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>first</title>
-      <link>https://njaremko.github.io/blog/first/</link>
+      <link>https://nathanjaremko.com/blog/first/</link>
       <pubDate>Mon, 10 Oct 2016 18:58:18 -0400</pubDate>
       
-      <guid>https://njaremko.github.io/blog/first/</guid>
+      <guid>https://nathanjaremko.com/blog/first/</guid>
       <description>&lt;p&gt;Hello, this is a blog post!&lt;/p&gt;
 </description>
     </item>
