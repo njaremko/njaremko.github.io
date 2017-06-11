@@ -1,0 +1,63 @@
+==================================================================
+https://keybase.io/njaremko
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nathanjaremko.com
+  * I am njaremko (https://keybase.io/njaremko) on keybase.
+  * I have a public key with fingerprint 3869 FAEC E1F4 ABED 217B  4E50 5B0D 9D7B 631A 09A6
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0116ecf8a2b26f9fe3735c186b259060b152aa72279bef0b930eb538a035d6ab818f0a",
+            "fingerprint": "3869faece1f4abed217b4e505b0d9d7b631a09a6",
+            "host": "keybase.io",
+            "key_id": "5b0d9d7b631a09a6",
+            "kid": "0116ecf8a2b26f9fe3735c186b259060b152aa72279bef0b930eb538a035d6ab818f0a",
+            "uid": "42da69c7c8bd288edd25a0a8158b0019",
+            "username": "njaremko"
+        },
+        "service": {
+            "hostname": "nathanjaremko.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1497217661,
+    "expire_in": 157680000,
+    "prev": "c33dbfe92b05ce1105d60d2fae7b485a1a8a17fcac188ac153e31477c682ff0e",
+    "seqno": 49,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUj2IE0EU3tOIuRPBQlIp4jQihGNmdudng2criJVcI0jCzM7bZE2yu+5uouE4
+RNDDwkJ7T/AgirbiD9Yi6iFic1iclSjmGisbC3U2mM7SKWaYN9/75n3fe7f273aq
+tXHt2Y9j15+uz21OtHNu6cW1FaQTM0KNFdSF6QE9A3nR6kYGNRAmhEMQSkU15aEf
+gitcFhDJNWU+5lgTRpUSlApfQ4i172LQzJUKu8xwpSWRIVaojsIobkOWZlFcWFpX
+cj9UEAAJPaXBUCK0BwwzjY1vhOYuUdhX3CZ2krzMsMVplcNilNiYvbSm5f0D/5/r
+HkzpPGoU9wMRSG2olGAMZQorSZjUGBO/BOaQxaoPFh1fUBn0uwlarSMbHUYBlMaW
+SmYIVXTUDLYYJH1LkGZJkQRJzz53iiLNG2V6MUpL/CXQrb9MLR3FxpppM4aQ5VES
+owaxyKCISmri+cK6yTmpI7icRhm0ohLBBJfYrvIfGFrKwG26RofgU42ZbQTBVjg2
+1LbF9kIyRZRURISBsrZJuzEXXOIJEXBJwxADKsVdjBPU8HxbqGpb0jxqW2mDDNDq
+wo1BxalVncO1o5VPX+7oe9sb7/ee3k5nA7hnVzl9zsL8gVnkyZE55/XHu9Gv5qG3
+Z14e37zaFOP7lfUTD5bObn1+tPPu5pXRQef38snlybe1fd93ttq3xfNR5dXj+TcP
+N9Z648nPD+e/nqr+AQ==
+=Omh0
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/njaremko
+
+==================================================================
+
